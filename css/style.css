@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    
+} 
+ 
+:root {
+  --blue: #1e90ff; 
+  --blue-primary:#006C9D;
+  --white: #ffffff;  
+  --gray-button:#F0F0F0;
+  --gray-font:#5B5B5B;
+  
+}
+ 
+body{
+  padding: 5rem; 
+}
+.brand{ 
+    width: 100%;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+} 
+.logo{
+    width: 50%;
+}  
+.custom-container {
+    margin-left: 10px !important;  
+    margin-right: 50rem !important; 
+} 
+
+@media (max-width:768px) {
+   .about{
+    min-width: 650px !important; 
+    height: 400px !important; 
+    margin-bottom: 15rem !important;
+   }  
+   .about .about-paragraph{
+    min-width: 400px; 
+    padding: 0 2rem;
+   } 
+   .about #about-img{
+    display: none;
+   }
+   .vesion{ 
+    margin: 5rem 0 !important;
+   } 
+   .presdint{
+        margin: 55rem 0 !important;
+   } 
+   .presdint .presdint-img img{
+    width: 200px !important; 
+    height: 250px !important; 
+    margin: 0 10rem;
+   }  
+   .contact-form{
+   margin: 0;
+   }
+   .contact-form div{
+    width: 300px !important; 
+    height: 300px !important;
+   }   
+   .contact-form form div{
+    height: 150px !important;
+   } 
+   .contact-form form div .form-floating{
+    height: 50px !important;
+   }
+   .contact-form form div .form-control {
+    width: 100% !important; 
+    margin-top: 10px !important;
+   } 
+
+   .contact-form div .doc img ,.contact-form div .doc{
+     /* width: 300px !important; 
+    height: 300px !important; */  
+    margin: 0 !important;
+    display: none;
+   }
+    
+}
+#wrapper{ 
+    width: 100% !important;
+    padding: 0;
+    margin: 0 20px; 
+    display: flex;
+    justify-content: space-evenly; 
+   align-items: center; 
+
+}
+
+li.nav-item:not(:last-child){     
+  border-right: 2px solid gray;
+  height: 30px; 
+  margin: 10px; 
+  padding: 0px 15px; 
+  color: var(--gray-font);
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}   
+li.nav-item{     
+  height: 30px; 
+  margin: 10px; 
+  padding: 0px 10px; 
+  color: var(--gray-font);
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}  
+li.nav-item:last-child{
+    display: block;  
+    
+ }
+li >a{
+    scale: 1.2;
+} 
+.nav-container{ 
+    width: 100%;  
+    display: flex; 
+    flex-direction: column-reverse;
+    justify-content:space-between; 
+    align-items: end;
+}
+.nav-form{ 
+    width: 50%;  
+    margin-bottom: 1rem; 
+    align-self : end;
+  position: relative; 
+
+} 
+.nav-links { 
+    align-self : end; 
+}
+.nav-form > button{
+    margin-left: .5em;
+}   
+#searchIcon{
+position: absolute; 
+right: 270px; 
+top: 10px;
+}
+#menuButton{
+    background-color: var(--gray-button) ;
+} 
+#loginButton{
+    background-color: var(--blue-primary); 
+    border-radius: 8px;
+}
+#languages a:hover{
+ background-color: transparent;
+}

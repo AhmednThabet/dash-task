@@ -1,0 +1,118 @@
+.presdint{
+   margin: 10rem 0;  
+} 
+@media (max-width: 768px) {
+    .presdint {
+        height: 50rem; 
+    }
+}
+@media (min-width: 768px) and (max-width:1200px) {
+    .presdint {
+        margin-bottom: 20rem; 
+    }
+}
+
+.presdint  .presdint-content .title {
+    color: #2DBAD4;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 214.286% */
+letter-spacing: 0.3px;
+}
+
+ .presdint  .presdint-content  .regards{
+    color: #006C9D;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.3px;
+ }  
+ .breadcrumb-container{
+    display: flex !important;  
+    align-items: center !important; 
+  gap: 20px; 
+  margin: 0 30px;
+    
+ } 
+
+ .breadcrumb-container ol{
+    padding-top: 10px;
+ }
+ .breadcrumb .breadcrumb-item a{
+color: #808080;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+text-decoration: none; 
+margin-top: 10px;
+
+ } 
+
+  .breadcrumb  .active{
+color: #006C9D !important;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+  } 
+
+#single-doc{
+      /* background-color: #006C9D ; */
+ width: 250px; 
+ height: 350px; 
+position: relative;
+    overflow: hidden; 
+   border-radius: 20px; 
+display: flex; 
+
+
+  } 
+  #single-doc .dector img{
+    width: 100%;
+   height: 100%;   
+   /* overflow: hidden;  */
+   border-radius: 20px; 
+   scale: 1.2; 
+   background: linear-gradient(360deg, #006C9D 0%, rgba(0, 108, 157, 0.00) 100%) !important;
+  }  
+
+  .board-section .board{
+color: #006C9D;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+display: flex; 
+justify-content: center;
+letter-spacing: 0.3px;
+}  
+#doc-data{ 
+    padding: 10px;
+    display: flex; 
+    justify-content: end;
+    align-items: start;
+    flex-direction: column;
+}
+#doc-name{
+    color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.3px;
+}
+#doc-postion{
+    color: #FFF;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.3px;
+}

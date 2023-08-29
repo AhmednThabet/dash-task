@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    
+} 
+ 
+:root {
+  --blue: #1e90ff; 
+  --blue-primary:#006C9D; 
+  --blue-button:#2DBAD4;
+  --white: #ffffff;  
+  --gray-button:#F0F0F0;
+  --gray-font:#5B5B5B; 
+  --gray-font2:#808080; 
+  
+}
+
+.hero{ 
+    width: 100%; 
+ margin-top: 30px !important;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+color: var(--blue-primary); 
+font-family: 'Montserrat', sans-serif; 
+
+    /* background-color: red;  */
+}
+.read-more { 
+background-color: var(--blue-button) !important; 
+color:var(--white) !important;
+  
+  
+}   
+#welcome h2{
+    font-size: 35px;
+}
+#welcome p{
+color: var(--gray-font2);
+} 
+
+#map-graph{
+    background-image: url("/assets/heroBG.png");
+    width: 50%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: top right; 
+    margin-top: 2rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;  */
+    position: relative;
+    /* background-color: red; */
+}  
+#map-graph > img{
+    position: absolute; 
+    border: 1px solid var(--blue-button); 
+    border-radius: 50%; 
+    max-width: 100%; 
+    height: auto;
+} 
+@media (max-width: 767px) { 
+    #map-graph{
+        width: 80%;
+    }
+    #map-graph > img {
+        max-width: 30%; /* Adjust as needed */
+    } 
+
+}
+#map-graph :first-child{  
+    width: 120px; 
+    top: 100px;
+    left: 150px;  
+    border:none;
+}  
+
+#map-graph img:nth-child(2){ 
+bottom: 20px;
+right:  230px;  
+width:70px;
+height: 70px; 
+} 
+#map-graph img:nth-child(3){ 
+top: 0px;
+left: 260px;
+width:50px;
+height: 50px; 
+
+} 
+#map-graph img:nth-child(4){ 
+top: 120px;
+left: 320px;
+width:50px;
+height: 50px; 
+
+} 
+#map-graph img:nth-child(5){ 
+top: 180px;
+left: 400px;
+width:60px;
+height: 60px; 
+
+} 
+#map-graph img:nth-child(6){ 
+bottom: 20px;
+right:100px;
+width:60px;
+height: 60px; 
+
+} 
+#map-graph img:nth-child(7){ 
+bottom: 120px;
+right:0px;
+width:60px;
+height: 60px; 
+
+} 
+
+#steps{
+    display: flex; 
+    flex-direction: column !important; 
+    justify-content: space-between !important;
+} 
+.vertical-line {
+    width: 1px; /* Adjust the width of the line */
+    height: 180px; /* Adjust the height of the line */
+    background-color: #2DBAD4 !important; 
+    align-self: center;  
+    margin-top: 15px; 
+  
+} 
+.circle-1,.circle-2,.circle-3{ 
+     border-radius: 50%;
+
+    color: var(--white);
+    margin: 2px;
+    padding: 2px; 
+    padding-left: 8px;
+    width: 25px; /* Set the width and height to create circles */
+    height: 25px; 
+    margin: 5px 0;
+
+} 
+.circle-1{
+    background-color: var(--blue-button); 
+
+}
+.circle-2{
+    background-color: var(--blue-primary); 
+
+}
+.circle-3{
+    background-color: var(--blue-button); 
+
+} 

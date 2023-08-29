@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/hero.css" />
+    <link rel="stylesheet" href="/css/home-about.css" /> 
+    <link rel="stylesheet" href="/css/contact.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="container-fluid custom-container navbar-expand-lg"
+      style="background-color: white"
+    >
+      <div class="" id="wrapper">
+        <a class="brand navbar-brand " href="#">
+          <img
+            src="/assets/Group 91.svg"
+            id="logo"
+            alt="Bootstrap"
+            width="150"
+            height="50"
+          />
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" >***</span>
+    </button>
+        </a> 
+   
+        <div class="collapse navbar-collapse nav-container" id="navbarSupportedContent">
+        
+          <ul class="navbar-nav nav-links mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#" style="color: #006C9D;">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Rssa</a> 
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/html/aboutRssa.html">About Rssa presdint</a></li>
+                <li><a class="dropdown-item" href="/html/aboutRssa2.htm">About Rssa</a> </li>
+              
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Sponsorship</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="/html/mediaCenter.html"
+                
+                
+                aria-expanded="false"
+              >
+                Media Center
+              </a>
+              <!-- <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Sponsorship</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Membership</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/html/contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-none d-lg-flex nav-form" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <img src="/assets/searchicon.svg" id="searchIcon" />
+            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+
+            <div class="dropdown">
+              <button
+                class="btn btn-outline dropdown-toggle"
+                type="button"
+                id="menuButton"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  src="/assets/united-states 1.png"
+                  style="width: 20px; height: 20px"
+                />
+                English
+              </button>
+              <ul
+                class="dropdown-menu"
+                id="languages"
+                aria-labelledby="menuButton"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img
+                      src="/assets/united-states 1.png"
+                      style="
+                        width: 20px;
+                        height: 20px;
+                        padding: 2px;
+                        margin: 2px;
+                      "
+                    />
+                    English</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/html/rtl.html">
+                    <img
+                      src="/assets/saudi.svg"
+                      style="
+                        width: 20px;
+                        height: 20px;
+                        padding: 2px;
+                        margin: 2px;
+                      "
+                    />
+                    العربية</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <button class="btn btn-primary" type="submit" id="loginButton">
+              LOGIN/SIGNUP
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="hero container d-flex flex-sm-column flex-md-row"
+    >
+      <div id="welcome">
+        <h2>
+          Welcome to <br />
+          Radiological Society<br />
+          of Saudi Arabia
+        </h2>
+        <p>
+          Lorem ipsum dolor amet, consectetur adipiscing elit, sed et <br />
+          dolore magna aliqua.
+        </p>
+        <button class="btn read-more">Read More</button>
+      </div>
+    
+      <div id="map-graph">
+        <img src="/assets/p1.svg" />
+        <img src="/assets/person2.svg" />
+        <img src="/assets/person3.svg" />
+        <img src="/assets/person4.svg" />
+        <img src="/assets/person5.svg" />
+        <img src="/assets/p6.png" />
+        <img src="/assets/p7.png" />
+      </div>
+      <div id="steps">
+        <span class="circle-1">1</span>
+        <span class="circle-2">2</span>
+        <span class="circle-3">3</span>
+        <div class="vertical-line"></div>
+
+        <img src="/assets/mouse.svg" />
+      </div>
+    </section>
+
+    <section
+      class="about container  position-relative d-block flex-sm-column flex-md-row"
+    >
+      <div class="w-75" id="about">
+        <p class="about-header">About</p>
+        <h2>The RSSA</h2>
+        <p class="about-paragraph">
+          The Radiological Society of Saudi Arabia is an organization of
+          radiological professionals in the Kingdom of Saudi Arabia that was
+          established to raise the public’s awareness about radiologists and the
+          practice of radiology as well as to provide a platform to enhance the
+          skills and knowledge of its members and advance research in the field
+          of radiology. In establishing the society, the founders and leaders of
+          the society hope to improve the public’s perception of radiology as a
+          profession and contribute as an organization to the betterment of
+          society.
+        </p>
+      </div>
+      <div class="" id="about-img"></div>
+    </section>
+
+    <section class="vesion container ">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+        <div class="col">
+          <dev class="vesion-card">
+            <img src="/assets/card1.svg" alt="!" />
+
+            <div class="card-title">Our Mission</div>
+            <div class="card-description">
+              To provide a nation-wide common space for exchanging and growing
+              evidence-based Radiology
+            </div>
+            <p class="read-more-link">Read More</p>
+          </dev>
+        </div>
+        <div class="col">
+          <dev class="vesion-card">
+            <img src="/assets/card2.svg" alt="!" />
+
+            <div class="card-title">Our Vision</div>
+            <div class="card-description">
+              To become the largest radiology scientific society in the region
+            </div>
+            <p class="read-more-link">Read More</p>
+          </dev>
+        </div>
+
+        <div class="col">
+          <dev class="vesion-card">
+            <img src="/assets/card3.svg" alt="!" />
+
+            <div class="card-title">Core Values</div>
+            <div class="card-description">
+              Excellence , Professionalism , Innovation, Collaboration
+            </div>
+            <p class="read-more-link">Read More</p>
+          </dev>
+        </div>
+
+        <div class="col">
+          <dev class="vesion-card">
+            <img src="/assets/card4.svg" alt="!" />
+
+            <div class="card-title">Strategic Goals</div>
+            <div class="card-description">
+              Provide an umbrella for continuous scientific and professional
+              education in Radiology
+            </div>
+            <p class="read-more-link">Read More</p>
+          </dev>
+        </div>
+      </div>
+    </section>
+
+    <section class="presdint container d-flex justify-content-between flex-sm-column flex-md-row">
+      <div class="presdint-content w-50">
+        <h4>President message</h4>
+        <h2>President message</h2>
+        <p class="title">Assistant Professor of Radiology</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
+
+        <div class="members">
+          <p class="board">Board Members</p>
+          <div class="doctors d-flex flex-sm-column flex-md-row">
+            <div class="dector m-2">
+              <img src="/assets/DraNuha.svg" alt="" />
+              <div class="gradient-overlay" style="padding: 10px 20px;">
+                Nuha Abdullah Khoumayies MD, MBA IHM
+              </div>
+            </div>
+            <div class="dector m-2">
+              <img src="/assets/DrAhmed.svg" />
+              <div class="gradient-overlay" style="padding: 10px 20px;">Ahmed Alharthy, MD</div>
+            </div>
+            <div class="dector m-2">
+              <img src="/assets/DraGhada.svg" />
+              <div class="gradient-overlay" style="padding: 10px 20px;">Ghadah Eftikhar Alturkstani</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="presdint-img">
+        <img src="/assets/DraArwa.png" />
+        
+       
+
+
+      </div>
+    </section> 
+   
+    <section class="news container-fluid "> 
+   <div class="news-header">
+     <p>News</p> 
+     <h2>Read our latest News</h2>
+   </div>
+   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+           <div class="col">
+             <div class="card" style="width: 18rem;">
+     <img src="/assets/news1.png" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h5 class="card-title">Minimally Invasive Fistula Creation A Promising..</h5>
+       <a class="card-text">Read More</a>
+     </div>
+    
+     
+   </div>
+           </div>
+              <div class="col">
+             <div class="card" style="width: 18rem;">
+     <img src="/assets/news2.png" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h5 class="card-title" style="margin-bottom: 32px;">RSSA Expansion</h5>
+       <a class="card-text">Read More</a>
+     </div>
+    
+     
+   </div>
+           </div>
+              <div class="col">
+             <div class="card" style="width: 18rem;">
+     <img src="/assets/news3.png" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h5 class="card-title">Preoperative MRI as a Screening Tool for ..</h5>
+       <a class="card-text">Read More</a>
+     </div>
+    
+     
+   </div>
+           </div>
+              <div class="col">
+             <div class="card" style="width: 18rem; position: relative;">
+     <img src="/assets/news4svg.svg" class="card-img-top" alt="...">
+     <img src="/assets/news44.png" id="logo" class="card-img-top" style="position: absolute; top: 20% ; left: 10%; width: 250px; " alt="...">
+     <div class="card-body">
+       <h5 class="card-title" style="margin-bottom: 32px;">RSSA Expansion</h5>
+       <a class="card-text">Read More</a>
+     </div>
+    
+     
+   </div>
+           </div>
+          
+       </div>
+       </section> 
+
+    
+      <section class="news container-fluid "> 
+<div class="news-header">
+  <p>Photos & Video</p> 
+  <h2>MEDIA GALLERY</h2>
+</div>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+        <div class="col" style="position: relative;">
+     <img src="/assets/photo1.svg" alt="" style="width: 84%; height: 100%; position: relative;border-radius: 10px; "/>
+              <div class="gradient-overlay-2">
+              <p>Media Gallery Album 01 </p> 
+               <div class="card-date d-flex align-items-center ">
+               <img src="/assets/calendar.svg" /> 
+               <p class="pt-3 ps-1">20.03.2023</p>
+              </div>
+              </div> 
+             
+        </div>
+       <div class="col" style="position: relative;">
+     <img src="/assets/photo2.png" alt=""  style="border-radius: 10px;width: 84%; height: 100%; position: relative;border-radius: 10px; " />
+              <div class="gradient-overlay-2"> 
+                <p></p>
+                 <div class="card-date d-flex align-items-center ">
+               <img src="/assets/calendar.svg" /> 
+               <p class="pt-3 ps-1">20.03.2023</p>
+              </div>
+              </div> 
+           
+        </div>
+        <div class="col " style="position: relative; overflow: hidden;">
+     <img src="/assets/background3.png" alt="" style="width: 84%; height: 100%; position: relative;border-radius: 10px; " />
+              <div class="gradient-overlay-2"> 
+               <p>Media Gallery Album 03</p> 
+            <div class="card-date " id="date">
+               <img src="/assets/calendar.svg" /> 
+               <p class="pt-3 ps-1">20.03.2023</p>
+              </div>
+              </div> 
+              
+        </div>
+        <div class="col" style="position: relative;">
+     <img src="/assets/Background4.png" alt="" style="border-radius: 10px;width: 82%; height: 100%; position: relative;border-radius: 10px;  " />
+              <div class="gradient-overlay-2"> 
+                <p>Media Gallery Album 04</p> 
+                <div class="card-date d-flex align-items-center ">
+               <img src="/assets/calendar.svg" /> 
+               <p class="pt-3 ps-1">20.03.2023</p>
+              </div>
+              </div> 
+            
+        </div>
+        
+        
+      </div>  
+      <div class="row justify-content-center">
+        <button class="btn btn-light  " style="width: 150px; background-color: white; color: #006C9D; margin-top: 50px;">View all albums</button>
+      </div>
+    </section> 
+  
+   <section class="contact-form container-fluid d-block d-md-flex w-75" style="position: relative;"> 
+ 
+     <form class="w-100">  
+         <p>Contact Us</p> 
+    <h3>Get in Touch</h3>
+      <div class="d-block d-md-flex g-row-6" style="gap: 20px;">
+<input class="form-control " style="width: 24.5%;" type="text" placeholder="Name" aria-label="default input example">
+      <input class="form-control" type="text"  style="width: 24.5%;"  placeholder="Email" aria-label="default input example">
+    
+      </div>
+      <div class="form-floating w-50  " style="margin-top: 20px;">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+  <label for="floatingTextarea" style="color: #006C9D;
+
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+
+text-transform: capitalize;" >Message</label>
+</div> 
+<button class="btn" style="margin: 20px 0  ; background-color: #006C9D; color: white;">Send Message</button>
+     </form>
+    <div  style="position: absolute; top: 30px; right: -50px;">
+ <div class="doc" style="position: relative; border: 10px solid white; border-radius: 15px; border-top-right-radius: 50px !important; "> 
+      <div class="gradient-overlay">
+      </div>
+      <img src="/assets/doc.png"  style="border-radius: 15px;  border-top-right-radius: 50px !important;"/>
+     </div>
+    </div>
+    
+   </section>
+    
+   <section class="subscribe container w-50"  >
+    <h3>Subscribe to our Newsletter</h3> 
+    <p>Lorem ipsum dolor consectetur </p> 
+    <div class="input-group mb-3 mt-3 w-50 input-group-lg">
+  <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <span class="input-group-text" id="basic-addon2" style="background-color: #006C9D ; color: white;">get Start</span>
+</div>
+   </section>  
+ 
+
+   <footer class="container">
+    <div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-4 row-cols-lg-6 ">
+        <div class="col">
+           <img     src="/assets/Group 91.svg"
+            id="logo"
+            alt="Bootstrap"
+            width="150"
+            height="50" /> 
+            <p id="lorem">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt et dolore magna aliqua.
+            </p>
+        </div> 
+          <div class="col">
+            <ul class="footer-list"> 
+            <li  class="footer-item special">About RSSA</li> 
+            <li class="footer-item">Who We Are</li>
+            <li class="footer-item">President Message</li>
+            <li class="footer-item">FAQ</li>
+            <li class="footer-item">Privacy Policy</li>
+          </ul>
+        </div>
+        <div class="col"> 
+          <ul class="footer-list"> 
+            <li  class="footer-item special">Annual Meetings</li>  
+            <li class="footer-item"> Annual Meetings</li>
+            <li class="footer-item">Programs</li>
+            <li class="footer-item">Webinar</li>
+            <li class="footer-item">Registration</li>
+          </ul>
+         
+           
+        </div>
+      
+        <div class="col">
+            <ul class="footer-list"> 
+            <li  class="footer-item special">Media Center</li>  
+           
+
+
+
+            <li class="footer-item"> Gallery</li>
+            <li class="footer-item">News</li>
+            <li class="footer-item">Blogs</li>
+            <li class="footer-item">Resources</li>
+          </ul>
+        </div>
+        <div class="col">
+            <ul class="footer-list"> 
+            <li  class="footer-item special">Membership</li>  
+       
+
+
+            <li class="footer-item">     Become A Member</li>
+            <li class="footer-item">Benefits Of Being A Member</li>
+            <li class="footer-item">Membership Fees</li>
+      
+          </ul>
+        </div>
+        <div class="col">
+            <ul class="footer-list"> 
+            <li  class="footer-item special" style="font-weight: 800;">Sponsorship</li> 
+            <li class="footer-item special" style="font-weight: 800;">event</li>
+            <li class="footer-item special" style="font-weight: 800;"> Contact Use</li>
+          
+          </ul>
+        </div>
+
+    </div>  
+    <div id="social">
+     <img src="/assets/social1.svg" />
+     <img src="/assets/social2.svg" />
+     <img src="/assets/social3.svg" />
+     <img src="/assets/social4.svg" />
+     <img src="/assets/social5.svg" />
+    </div>
+    <hr> 
+    <div id="copyright">Copyright ©2023 By rssa . All Rights Reserved</div>
+</div> 
+
+
+   </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

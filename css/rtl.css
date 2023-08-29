@@ -1,0 +1,207 @@
+html.body{
+    text-align: right !important;
+}
+
+.custom-container {
+    margin-left:50rem !important  ;  
+    margin-right: 10px !important; 
+} 
+.nav-form > button{
+    margin-right: .5em;
+} 
+.brand{ 
+    width: 100%;
+    display: flex;  
+    flex-direction: row-reverse;
+ justify-content: flex-end;
+     align-items: center; 
+     gap: 50px; 
+         align-self: baseline;
+}  
+#wrapper{ 
+    width: 100% !important;
+    padding: 0;
+    margin: 0 20px; 
+    display: flex; 
+ 
+    justify-content: space-between; 
+   align-items: center;  
+
+
+}
+li.nav-item{     
+  border-right: 2px solid gray;
+  height: 30px; 
+  margin: 10px; 
+  padding: 0px 10px; 
+  color: var(--gray-font);
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}  
+
+.custom-container {
+    margin-right: 10px !important;  
+    margin-left: 50rem !important; 
+}
+
+#searchIcon{
+position: absolute; 
+left: 270px; 
+top: 10px;
+}
+.nav-form > button{
+    margin-right: .5em;
+}  
+
+.circle-1,.circle-2,.circle-3{ 
+     border-radius: 50%;
+
+    color: var(--white);
+    margin: 2px;
+    padding: 2px; 
+    padding-right: 8px;
+    width: 25px; /* Set the width and height to create circles */
+    height: 25px; 
+    margin: 5px 0;
+
+}    
+
+
+.presdint-img img{
+    width: 335px; 
+    height: 420px; 
+    border: 10px solid white;
+    border-radius: 20px 120px 20px 20px;
+border: 10px solid #FFF;
+box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.10); 
+position: absolute; 
+top: -100px;
+right: -10%;
+
+}   
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    border-radius: 20px;
+    background: linear-gradient(0deg, #006C9D 0%, rgba(0, 108, 157, 0.00) 100%); 
+    color: #FFF;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.3px;   
+display:flex ;   
+justify-content: start;
+align-items: end;  
+padding-right:8px;
+
+
+}   
+.about {
+    max-height: 400px !important;
+    margin: 8rem 13rem;
+    /* position: relative; */
+}  
+.vesion {
+    margin: 10rem 12rem;
+    height: 300px;
+    padding: 2rem;
+    width: 100%;
+} 
+.presdint{
+   margin: 10rem 8rem; 
+}
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    width: 50% !important;
+    min-width: 500px !important;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 30rem !important;
+    border-radius: 18px;
+    box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.10);
+    padding: 2rem;
+} 
+.nav-form {
+    width: 60%;
+    margin-bottom: 1rem;
+    align-self: end;
+    position: relative;
+} 
+@media (max-width:768px) {
+   .about{
+    min-width: 650px !important; 
+    height: 400px !important;  
+    max-height: 400px !important;
+    margin: 8rem 0rem;
+    margin-bottom: 15rem !important;
+   }  
+   .about .about-paragraph{
+    min-width: 400px; 
+    padding: 0 2rem;
+   } 
+   .about #about-img{
+    display: none;
+   }
+   .vesion{ 
+    margin: 5rem 0 !important;
+   } 
+   .presdint{
+        margin: 55rem 0 !important;
+   } 
+   .presdint .presdint-img img{
+    width: 200px !important; 
+    height: 250px !important; 
+    margin: 5rem 0rem;
+   }  
+   /* .contact-form{
+    max-height: 800px !important;
+   } */
+   .contact-form div{
+    width: 300px !important; 
+    height: 300px !important;
+   } 
+   .contact-form div .doc img ,.contact-form div .doc{
+     /* width: 300px !important; 
+    height: 300px !important; */  
+    margin: 0 !important;
+    display: none;
+   } 
+   .subscribe{
+    margin: 10rem 0 !important;
+   }
+  
+    
+}
+#about-img{  
+    height: 80%;   
+    width: 23%;
+    background-image: url("/assets/home-about.png"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border: 10px solid white; 
+    border-radius: 10px;
+     border-top-right-radius: 150px;  
+box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.10);
+     position: absolute; 
+     top: 50px;
+     right: 800px;
+   
+  
+}  
+#wrapper{ 
+    width: 100% !important;
+    padding: 0;
+    margin: 0 20px; 
+    display: flex;
+    justify-content: space-between; 
+   align-items: center; 
+
+}

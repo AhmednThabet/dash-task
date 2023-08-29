@@ -1,0 +1,28 @@
+.vesion  .row .col .vesion-card {
+    padding: 3rem ;
+} 
+
+@media (max-width:768px) { 
+.vesion{
+    margin-bottom: 55rem ;
+} 
+     
+
+
+}
+.vesion  .row .col .vesion-card .card-description{
+
+color: #808080;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px
+}  
+#second-with-img{
+ margin-top: 25rem; 
+} 
+#second-with-img img{
+    width: 500px; 
+    margin: 5rem;
+}

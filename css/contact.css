@@ -1,0 +1,181 @@
+.contact {
+  margin-top: 42px;
+}
+.contact .contact-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #006c9d;
+}
+.contact .description {
+  width: 580px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  margin-top: 20px;
+}
+.contact .map {
+  width: 100%;
+}
+.contact .map iframe {
+  width: 100%;
+}
+
+/* contact details */
+.contact-details {
+  width: 100%;
+  margin-top: 40px;
+}
+.contact-details .contact-item {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 30%;
+  border-radius: 20px;
+}
+.contact-details .contact-item .contact-image {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(to bottom, #006c9d, #2dbad4);
+}
+.contact-details .contact-item .contact-image img {
+  width: 40px;
+  height: 40px;
+}
+.contact-details .contact-item .title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #006c9d;
+  margin-top: 20px;
+}
+.contact-details .contact-item .description {
+  font-size: 14px;
+  color: #77838f;
+  width: 320px;
+}
+
+/* get in touch */
+.get-in-touch {
+  margin-top: 100px;
+}
+.get-in-touch .title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #006c9d;
+}
+.get-in-touch .description {
+  font-size: 16px;
+  font-weight: 500;
+  color: #808080;
+}
+.get-in-touch .contact-form {
+}
+.get-in-touch .contact-form .row {
+  width: 100%;
+}
+.get-in-touch .contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.get-in-touch .contact-form .form-control {
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  height: 60px;
+}
+.get-in-touch .contact-form .form-control::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #006c9d;
+}
+.get-in-touch .contact-form .btn {
+  /* margin: 0 auto; */
+  width: 188px;
+  height: 60px;
+  border-radius: 15px;
+  color: #fff;
+  background-color: #006c9d;
+}
+
+/* subscribe */
+/* .subscribe {
+  margin: 100px 0;
+} */
+
+.subscribe .subscribe-container {
+  /* margin: 0 auto; */
+  padding: 50px 20px; /* Adjust padding as needed */
+  max-width: 780px; /* Use max-width instead of fixed width */
+  border-radius: 20px;
+  background-color: #fff;
+  text-align: center; /* Center text */
+}
+
+.subscribe .subscribe-container .title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #006c9d;
+}
+
+.subscribe .subscribe-container .description {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666666;
+}
+
+
+.subscribe .subscribe-container .input-group {
+  width: 100%; /* Use 100% width to adapt to the container */
+  max-width: 400px; /* Use max-width instead of fixed width */
+  margin: 0 auto;
+  height: 50px;
+  border: 1px solid #e8e8e8;
+  border-radius: 15px;
+  position: relative;
+}
+
+.subscribe .subscribe-container .input-group input {
+  border-radius: 15px;
+  border: none;
+  padding-left: 20px;
+  width: 100%; /* Use 100% width to fill the container */
+}
+
+.subscribe .subscribe-container .input-group input:focus {
+  outline: none;
+}
+
+.subscribe .subscribe-container .input-group input::placeholder {
+  color: #006c9d;
+}
+
+.subscribe .subscribe-container .input-group .btn {
+  border-radius: 15px !important;
+  background-color: #006c9d;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .contact-details .contact-item .description {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact .description {
+    width: 100%;
+  }
+  .contact-details {
+    gap: 10px;
+    margin: 0 auto;
+  }
+  .contact-details .contact-item {
+    width: 100%;
+  }
+  .get-in-touch .contact-form .row {
+    gap: 10px;
+  }
+}

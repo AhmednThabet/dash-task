@@ -1,0 +1,70 @@
+.media-header .content h2{
+    color: #006C9D;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 150% */
+letter-spacing: 0.3px; 
+min-width: 300px;
+} 
+.media-header{
+    padding: 5rem 0 !important;  
+    margin-bottom: 5rem;
+
+}
+.media-header img{
+border-radius: 20px;  
+
+
+} 
+.news .row .col .card{
+    height: 400px; 
+    margin-left: 5rem; 
+    min-width: 300px;
+} 
+.news .row .col .card img{
+    height: 60%; 
+    border-radius: 20px;
+}
+.collaboration ul li ,.benefits ul li {
+    color: #2DBAD4;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 166.667% */
+text-transform: capitalize;
+} 
+
+.collaboration p{
+    color: #5B5B5B;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
+margin-bottom: 20px;
+}
+.with-img {
+    margin: 5rem 0;
+}  
+.with-img div p , .benefits div p{
+color: #5B5B5B;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px;
+} 
+.with-img div a{
+    color: #006C9D;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px;
+} 
+.benefits{
+    margin: 5rem 0;
+}
+.with-img img{
+    border: 1px solid gray; 
+    height: 300px; 
+    border-radius: 5px;
+}
